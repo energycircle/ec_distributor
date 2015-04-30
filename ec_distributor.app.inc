@@ -7,28 +7,28 @@
 /**
  * Implements hook_apps_app_info().
  */
-function ec_distinction_apps_app_info() {
+function ec_distributor_apps_app_info() {
   return array(
-    'demo content description' => 'Creates sample content to show distinction',
-    //'demo content module' => 'ec_distinction_demo',
+    'demo content description' => 'Creates sample content to show distributor',
+    //'demo content module' => 'ec_distributor_demo',
     'permissions' => array(
-      'create Distinction content' => array(
+      'create Distributor content' => array(
         'EC Platinum admin' => 'ec_platinum_admin',
         'EC Platinum editor' => 'ec_platinum_editor',
       ),
-      'delete any Distinction content' => array(
+      'delete any Distributor content' => array(
         'EC Platinum admin' => 'ec_platinum_admin',
         'EC Platinum editor' => 'ec_platinum_editor',
       ),
-      'delete own Distinction content' => array(
+      'delete own Distributor content' => array(
         'EC Platinum admin' => 'ec_platinum_admin',
         'EC Platinum editor' => 'ec_platinum_editor',
       ),
-      'edit any Distinction content' => array(
+      'edit any Distributor content' => array(
         'EC Platinum admin' => 'ec_platinum_admin',
         'EC Platinum editor' => 'ec_platinum_editor',
       ),
-      'edit own Distinction content' => array(
+      'edit own Distributor content' => array(
         'EC Platinum admin' => 'ec_platinum_admin',
         'EC Platinum editor' => 'ec_platinum_editor',
       ),
