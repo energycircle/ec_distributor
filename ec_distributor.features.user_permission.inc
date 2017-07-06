@@ -74,6 +74,7 @@ function ec_distributor_user_default_permissions() {
   $permissions['delete any distributor content'] = array(
     'name' => 'delete any distributor content',
     'roles' => array(
+      'EC Platinum admin' => 'EC Platinum admin',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
